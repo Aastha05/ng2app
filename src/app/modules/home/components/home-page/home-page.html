@@ -1,0 +1,9 @@
+<h1>
+    Let's show a list of todos here
+</h1>
+
+<button (click)="login()">Login</button>
+
+<ul>
+    <li *ngFor="let todo of todos">{{todo.todo}}</li>
+</ul>
